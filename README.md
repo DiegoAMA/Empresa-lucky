@@ -1,6 +1,9 @@
 <p><em>Este es un proyecto en el cual los nombres, la
   estructura y los valores han sido generados de forma aleatoria con el fin de llevar a cabo algunos ejercicios.</em></p>
 
+<picture>
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://github.com/DiegoAMA/Imagenes/blob/e6d734a41ccd8a2af6226984816177c8286bb45f/Lucky/trebol-cuatro-hojas.jpg"width="550">
+</picture>
 
 # Lucky
 
@@ -30,3 +33,9 @@ Dentro de este contexto, el objetivo es generar información valiosa para la emp
 	- Productos más vendidos a detalle.
 	- Productos menos vendidos a detalle.
 	- Productos sin desplazamientos.
+
+
+* Proceso: :frog:
+* Resultados: :deciduous_tree:
+
+  
