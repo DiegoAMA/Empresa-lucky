@@ -1,5 +1,5 @@
 <p><em>Este es un proyecto en el cual los nombres, la
-  estructura y los valores han sido inventados de forma aleatoria con el fin de llevar a cabo algunos ejercicios.</em></p>
+  estructura y los valores han sido generados de forma aleatoria con el fin de llevar a cabo algunos ejercicios.</em></p>
 
 
 # Lucky
