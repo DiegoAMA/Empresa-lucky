@@ -35,7 +35,7 @@ Dentro de este contexto, el objetivo es generar información valiosa para la emp
 	- Productos sin desplazamientos.
 
 
-* Proceso: :frog:
-* Resultados: :deciduous_tree:
+* Proceso :frog:
+* [Reportes:deciduous_tree:](https://github.com/DiegoAMA/Empresa-lucky/blob/6a3b79812b89f52fdabb08d3d53fbd6b9030d5ca/Reportes/Lucky%20Resultados.md)
 
   
