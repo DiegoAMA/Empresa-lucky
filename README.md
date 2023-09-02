@@ -36,6 +36,6 @@ Dentro de este contexto, el objetivo es generar información valiosa para la emp
 
 
 * Proceso :frog:
-* [Reportes:deciduous_tree:](https://github.com/DiegoAMA/Empresa-lucky/blob/6a3b79812b89f52fdabb08d3d53fbd6b9030d5ca/Reportes/Lucky%20Resultados.md)
+* [Reportes:deciduous_tree:](https://github.com/DiegoAMA/Empresa-lucky/blob/a82635a304bbbd73c9ca5cbb90073d111fbdab67/Reportes/Lucky%20Resultados.md)
 
   
