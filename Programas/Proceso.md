@@ -24,6 +24,20 @@ Posteriormente, se continúa con procesos en R para garantizar la coherencia de 
 
 <p>Este repositorio sirve como un recurso integral para entender y replicar el flujo completo de trabajo desde la generación de datos hasta la presentación de informes visuales. Explora los archivos y carpetas para acceder a los scripts, consultas y visualizaciones utilizadas en cada etapa del proceso.<br></p>
 
+# Forecast
+<p>
+Primeramente se reviso la tendencia por medio del método "X-11" para cada linea y su sumatoria en conjunto. Siendo esta última la imagen representada a continuación.<br>
+Durante el proceso de reporteo para directores. Se genero un analisis de los datos con la finalidad de generar diferentes forecast, siendo para todas las lineas como un solo conjunto (Forecast total llamado en el código) y por separado (Forecast por linea).
+<br></p>
+
+inserte imagen aquí
+
+<p>Tanto para el forecast total como por linea, se revisaron los outliers, la correlación entre los valores de venta contra los desplazamiento y la estacionalidad de las series de tiempo mediante los gráficos de ACF (Autocorrelation Function) y PACF (Partial Autocorrelation Function).<br>
+Una vez analizadas las series de tiempo se realizaron los forecast con los métodos de auto.arima (de forma automática), arima (Provando diversas combinaciones en base a los resultados de analisis de estacionalidad), ETS y lineal.
+
+  <br></p>
+
+
 ¡Saludos!
 
 
