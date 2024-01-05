@@ -26,16 +26,22 @@ Posteriormente, se continúa con procesos en R para garantizar la coherencia de 
 
 # Forecast
 <p>
-Primeramente se reviso la tendencia por medio del método "X-11" para cada linea y su sumatoria en conjunto. Siendo esta última la imagen representada a continuación.<br>
-Durante el proceso de reporteo para directores. Se genero un analisis de los datos con la finalidad de generar diferentes forecast, siendo para todas las lineas como un solo conjunto (Forecast total llamado en el código) y por separado (Forecast por linea).
+Primeramente se reviso la tendencia por medio del método "X-11" para cada linea y la sumatoria en conjunto. Siendo esta última la imagen representada a continuación.<br>
+Durante el proceso de reporteo para directores. Se genero un analisis de los datos con la finalidad de generar diferentes forecast, siendo para todas las lineas como en un solo conjunto (Forecast total llamado en el código) y por separado (Forecast por linea).
 <br></p>
 
 inserte imagen aquí
 
-<p>Tanto para el forecast total como por linea, se revisaron los outliers, la correlación entre los valores de venta contra los desplazamiento y la estacionalidad de las series de tiempo mediante los gráficos de ACF (Autocorrelation Function) y PACF (Partial Autocorrelation Function).<br>
-Una vez analizadas las series de tiempo se realizaron los forecast con los métodos de auto.arima (de forma automática), arima (Provando diversas combinaciones en base a los resultados de analisis de estacionalidad), ETS y lineal.
+<p>Tanto para el forecast total como por linea, se revisaron los outliers, la correlación entre los valores de venta contra las existencias y la estacionalidad de las series de tiempo mediante los gráficos de ACF (Autocorrelation Function) y PACF (Partial Autocorrelation Function).<br>
+Una vez analizadas las series de tiempo se realizaron los forecast con los métodos de auto.arima (de forma automática), arima (Provando diversas combinaciones en base a los resultados de analisis de estacionalidad), ETS y lineal. Se evaluan por medio del AICc, R^2 Ajustado, la normalidad de sus residuales, la autocorrelación de los modelos, el RMSE y MAE; tomando el mejor modelo se procede a generar un nuevo modelo con boostcrapping (remuestro mediante selección aleatoria con remplazo) y bagging (Combinación de multiples modelos independientes).:<br>
+Para fines practicos solo se muestran los resultados obtenidos de los modelos del forecast total. Las evaluaciones de estos quedaron de la siguiente manera:<br></p>
 
-  <br></p>
+  | Modelo    | AICc       | R^2 Ajustado | Test jarque bera a residuales | Test de autocorrelación| RMSE (Raíz del error cuadratico medio)| MAE (Error absoluto medio) |
+| ----------- | ---------- | ---------    | ----------------------------- | -----------------------| ------------------------------------  |----------------------------|
+| Autoarima   | 965.94     | -----        | No normal                     | No autocorrelacionados | 1500 | 1256 |
+| Arima       | 965.03     | -----        | No normal                     | No autocorrelacionados | 548  | 469  |
+| ETS         | 1039.21    | -----        | Normal                        | No autocorrelacionados | 1290 | 883  |
+| Reg. Lineal | -----      | 0.85         | Normal                        | No autocorrelacionados | 1686 | 1234 |
 
 
 ¡Saludos!
