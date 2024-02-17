@@ -3,7 +3,7 @@
 
 <picture>
   <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." 
-	  src="[https://github.com/DiegoAMA/Imagenes/blob/e6d734a41ccd8a2af6226984816177c8286bb45f/Lucky/trebol-cuatro-hojas.jpg]"width="550">
+	  src="https://github.com/DiegoAMA/Imagenes/blob/e6d734a41ccd8a2af6226984816177c8286bb45f/Lucky/trebol-cuatro-hojas.jpg"width="550">
 </picture>
 
 # Lucky
