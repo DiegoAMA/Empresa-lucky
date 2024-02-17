@@ -1,9 +1,9 @@
 <p><em>Este es un proyecto en el cual los nombres, la
   estructura y los valores han sido generados de forma aleatoria con el fin de llevar a cabo algunos ejercicios.</em></p>
 
-<picture>
-  <img src="https://github.com/DiegoAMA/Imagenes/blob/e6d734a41ccd8a2af6226984816177c8286bb45f/Lucky/trebol-cuatro-hojas.jpg"width="550">
-</picture>
+<p align="center">
+  <img src="https://github.com/DiegoPsico00/Imagenes-Git/blob/e247cf5dc66d9a7e679c976cc0ec60550d921f3c/Portadas_blog_1.png">
+</p>
 
 # Lucky
 
