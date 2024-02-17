@@ -2,9 +2,9 @@
   estructura y los valores han sido generados de forma aleatoria con el fin de llevar a cabo algunos ejercicios.</em></p>
 
 <p align="center">
-  <img src="https://github.com/DiegoAMA/Imagenes/blob/45c3d9fd00291deea85631538911825a46354320/Lucky/trebol-cuatro-hojas.jpg">
+  <img src="https://github.com/DiegoAMA/Imagenes/blob/45c3d9fd00291deea85631538911825a46354320/Lucky/trebol-cuatro-hojas.jpg" 
+	  width="560" height="450">
 </p>
-
 # Lucky
 
 
