@@ -2,7 +2,7 @@
   estructura y los valores han sido generados de forma aleatoria con el fin de llevar a cabo algunos ejercicios.</em></p>
 
 <picture>
-  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://github.com/DiegoAMA/Imagenes/blob/e6d734a41ccd8a2af6226984816177c8286bb45f/Lucky/trebol-cuatro-hojas.jpg"width="550">
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="[https://github.com/DiegoAMA/Imagenes/blob/e6d734a41ccd8a2af6226984816177c8286bb45f/Lucky/trebol-cuatro-hojas.jpg](https://github.com/DiegoAMA/Imagenes/blob/45c3d9fd00291deea85631538911825a46354320/Lucky/trebol-cuatro-hojas.jpg)"width="550">
 </picture>
 
 # Lucky
