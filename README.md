@@ -2,7 +2,7 @@
   estructura y los valores han sido generados de forma aleatoria con el fin de llevar a cabo algunos ejercicios.</em></p>
 
 <p align="center">
-  <img src="https://github.com/DiegoPsico00/Imagenes-Git/blob/e247cf5dc66d9a7e679c976cc0ec60550d921f3c/Portadas_blog_1.png">
+  <img src="https://github.com/DiegoAMA/Imagenes/blob/45c3d9fd00291deea85631538911825a46354320/Lucky/trebol-cuatro-hojas.jpg">
 </p>
 
 # Lucky
