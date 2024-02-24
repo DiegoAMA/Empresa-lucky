@@ -412,7 +412,8 @@ ts.linea %>%
 ts.linea %>% 
   filter(LINEA == "Cocina") %>% 
   autoplot(Desplazamientos) +
-  autolayer(filter(fc.linea.final,LINEA == "Cocina"))
+  autolayer(filter(fc.linea.final,LINEA == "Cocina")) +
+  labs(title = "Forecast ETS Linea Cocina")
 
 #save.image(file = "Lucky.RData")
 load("Lucky.RData")

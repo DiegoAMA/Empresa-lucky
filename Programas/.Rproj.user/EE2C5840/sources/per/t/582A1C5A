@@ -3,7 +3,7 @@
     "path": "C:/Users/diego/OneDrive/Escritorio/Data Scients/Portafolio/Empresa lucky/Programas/Forecast.R",
     "project_path": "Forecast.R",
     "type": "r_source",
-    "hash": "189791515",
+    "hash": "3860374450",
     "contents": "",
     "dirty": false,
     "created": 1703120171423.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "83,0",
-        "scrollLine": "76"
+        "cursorPosition": "417,0",
+        "scrollLine": "400"
     },
     "folds": "",
-    "lastKnownWriteTime": 1703120571,
+    "lastKnownWriteTime": 1708811010,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1703120571927,
+    "last_content_update": 1708811010472,
     "read_only": false,
     "read_only_alternatives": []
 }
