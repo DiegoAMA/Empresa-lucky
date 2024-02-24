@@ -30,7 +30,8 @@ Primeramente se reviso la tendencia por medio del método "X-11" para cada linea
 Durante el proceso de reporteo para directores. Se genero un analisis de los datos con la finalidad de generar diferentes forecast, siendo para todas las lineas como en un solo conjunto (Forecast total llamado en el código) y por separado (Forecast por linea).
 <br></p>
 
-inserte imagen aquí
+<p align="center">
+  <img src="https://github.com/DiegoAMA/Imagenes/blob/aadb604455dce8739b22475a408c8348db85756f/Lucky/Tendencias.png"></p><br>
 
 <p>Tanto para el forecast total como por linea, se revisaron los outliers, la correlación entre los valores de venta contra las existencias y la estacionalidad de las series de tiempo mediante los gráficos de ACF (Autocorrelation Function) y PACF (Partial Autocorrelation Function).<br>
 Una vez analizadas las series de tiempo se realizaron los forecast con los métodos de auto.arima (de forma automática), arima (Provando diversas combinaciones en base a los resultados de analisis de estacionalidad), ETS y lineal. Se evaluan por medio del AICc, R^2 Ajustado, la normalidad de sus residuales, la autocorrelación de los modelos, el RMSE y MAE; con el mejor modelo se genera uno nuevo utilizando boostcrapping (remuestro mediante selección aleatoria con remplazo) y bagging (Combinación de multiples modelos independientes).:<br>
@@ -42,22 +43,20 @@ Para fines practicos solo se muestran los resultados obtenidos de los modelos de
 | Arima       | 965.03     | -----        | No normal                     | No autocorrelacionados | 548  | 469  |
 | ETS         | 1039.21    | -----        | Normal                        | No autocorrelacionados | 1290 | 883  |
 | Reg. Lineal | -----      | 0.85         | Normal                        | No autocorrelacionados | 1686 | 1234 |
-
+<br>
 El modelo final para el forecast total fue ARIMA (1,1,1) con boostcrapping y bagging. Quedando la predicción para los siguientes seis meses.
 
-
+<p align="center">
+  <img src="https://github.com/DiegoAMA/Imagenes/blob/aadb604455dce8739b22475a408c8348db85756f/Lucky/Forecast%20Total.PNG"></p><br>
 
 
 Siendo el módelo de los forecast para las tres lineas por separado el ETS con bootscarpping y bagging.
+<p align="center">
+  <img src="https://github.com/DiegoAMA/Imagenes/blob/aadb604455dce8739b22475a408c8348db85756f/Lucky/Forecast%20Linea%20Cocina.PNG"></p><br>
 
 
 
-
-
-
-
-
-
-¡Saludos y gracias por llegar hasta aquí!
+<br>
+¡Saludos y gracias por llegar hasta aquí! :wave: :blush:
 
 
