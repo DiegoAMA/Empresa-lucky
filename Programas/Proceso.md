@@ -1,7 +1,7 @@
 # Proceso
 
 ## Descripción:
-<p>Este repositorio documenta el proceso completo de análisis y generación de informes utilizando los datos ficticios. A continuación, se detallan solo los pasos clave del proceso:
+<p>Este repositorio documenta el proceso completo de análisis y generación de informes utilizando los datos ficticios. A continuación, se describen solo los pasos clave:
 <br></p>
 
 <p> 1.- Generación de Datos: <br>Se crea una base de datos ficticia que simula el entorno del negocio.
@@ -33,7 +33,7 @@ Durante el proceso de reporteo para directores. Se genero un analisis de los dat
 inserte imagen aquí
 
 <p>Tanto para el forecast total como por linea, se revisaron los outliers, la correlación entre los valores de venta contra las existencias y la estacionalidad de las series de tiempo mediante los gráficos de ACF (Autocorrelation Function) y PACF (Partial Autocorrelation Function).<br>
-Una vez analizadas las series de tiempo se realizaron los forecast con los métodos de auto.arima (de forma automática), arima (Provando diversas combinaciones en base a los resultados de analisis de estacionalidad), ETS y lineal. Se evaluan por medio del AICc, R^2 Ajustado, la normalidad de sus residuales, la autocorrelación de los modelos, el RMSE y MAE; tomando el mejor modelo se procede a generar un nuevo modelo con boostcrapping (remuestro mediante selección aleatoria con remplazo) y bagging (Combinación de multiples modelos independientes).:<br>
+Una vez analizadas las series de tiempo se realizaron los forecast con los métodos de auto.arima (de forma automática), arima (Provando diversas combinaciones en base a los resultados de analisis de estacionalidad), ETS y lineal. Se evaluan por medio del AICc, R^2 Ajustado, la normalidad de sus residuales, la autocorrelación de los modelos, el RMSE y MAE; con el mejor modelo se genera uno nuevo utilizando boostcrapping (remuestro mediante selección aleatoria con remplazo) y bagging (Combinación de multiples modelos independientes).:<br>
 Para fines practicos solo se muestran los resultados obtenidos de los modelos del forecast total. Las evaluaciones de estos quedaron de la siguiente manera:<br></p>
 
   | Modelo    | AICc       | R^2 Ajustado | Test jarque bera a residuales | Test de autocorrelación| RMSE (Raíz del error cuadratico medio)| MAE (Error absoluto medio) |
@@ -43,7 +43,21 @@ Para fines practicos solo se muestran los resultados obtenidos de los modelos de
 | ETS         | 1039.21    | -----        | Normal                        | No autocorrelacionados | 1290 | 883  |
 | Reg. Lineal | -----      | 0.85         | Normal                        | No autocorrelacionados | 1686 | 1234 |
 
+El modelo final para el forecast total fue ARIMA (1,1,1) con boostcrapping y bagging. Quedando la predicción para los siguientes seis meses.
 
-¡Saludos!
+
+
+
+Siendo el módelo de los forecast para las tres lineas por separado el ETS con bootscarpping y bagging.
+
+
+
+
+
+
+
+
+
+¡Saludos y gracias por llegar hasta aquí!
 
 
