@@ -1,4 +1,4 @@
-[Archivos Reportes:deciduous_tree:](https://github.com/DiegoAMA/Empresa-lucky/tree/9ac8e22620edee6c5444db52fd2fb823e4041548/Reportes)
+[Archivos Reportes :hamster:](https://github.com/DiegoAMA/Empresa-lucky/tree/9ac8e22620edee6c5444db52fd2fb823e4041548/Reportes)
 
 ## Lucky Resultados
 
