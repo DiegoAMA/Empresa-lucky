@@ -34,6 +34,6 @@ Dentro de este contexto, el objetivo es generar información valiosa para la emp
 
 
 * [Proceso y Forecast :frog:](https://github.com/DiegoAMA/Empresa-lucky/blob/c477402355c1a27882e893ac8632cb7c035f770c/Programas/Proceso.md) 
-* [Reportes🌳](https://github.com/DiegoAMA/Empresa-lucky/blob/a82635a304bbbd73c9ca5cbb90073d111fbdab67/Reportes/Lucky%20Resultados.md)
+* [Reportes🌳](https://github.com/DiegoAMA/Empresa-lucky/blob/3e9ec0adeb47103f32ed2ea5a3d8a3075f3fe2a8/Reportes/Lucky%20Resultados.md)
 
   
